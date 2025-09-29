@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        .box {
+            background-color: aqua;
+            height: 150px;
+            width: 150px;
+            border: 2px white;
+            transition: background-color 1s;
+
+        }
+
+        .box:hover {
+            background-color: black;
+
+        }
+
+        .circle {
+            background-color: palevioletred;
+            height: 150px;
+            width: 150px;
+            border: 2px white;
+            border-radius: 50%;
+            margin-top: 100px;
+        }
+
+        .circle:hover {
+            transform: scale(0.5);
+
+        }
+
+        .piano {
+            display: flex;
+            margin-top: 50px;
+        }
+
+        .key {
+            background-color: black;
+            height: 200px;
+            width: 50px;
+            border: 5px solid white;
+            border-radius: 0px 0px 20px 20px;transition:transform 0.3s ;
+        }.key:hover{transform: translatey(40px)scale(0.8);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box"></div>
+    <div class="circle"></div>
+    <div class="piano">
+        <div class="key"></div>
+
+        <div class="key"></div>
+        <div class="key"></div>
+        <div class="key"></div>
+        <div class="key"></div>
+        <div class="key"></div>
+    </div>
+
+
+
+
+</body>
+
+</html>
