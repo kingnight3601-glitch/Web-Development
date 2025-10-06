@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cloud</title>
+    <style>
+        body{
+            background-color: lightcyan;align-content: center;
+        }
+        .cloud {
+            background: linear-gradient(cyan, white, cyan);
+            height: 100px;
+            width: 320px;
+            border-radius: 40px 40px 40px 40px;
+            
+            transition: moveright 6s;
+           
+            
+        }
+
+        
+
+        @keyframes moveright {
+            0% {
+                transform: translateX(0px);
+            }
+
+            50% {
+                transform: rotate(50px);
+            }
+
+            100% {
+                transform: translateX(100px);
+            }
+        }
+
+        .cloud {
+            animation: moveright 6s;
+        }
+
+        
+    </style>
+</head>
+
+<body>
+   <div class="cloud"></div>
+</body>
+
+</html>
