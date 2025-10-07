@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <style>
+        .parent {
+            justify-content: space-between;
+        }
+
+        .codingal {
+            justify-content: space-between;
+            display: flex;
+            border: 2px solid black;
+        }
+
+        .left,
+        .middle,
+        .end {
+            display: flex;
+            flex-direction: row;
+            gap: 5px;
+        }
+    </style>
+</head>
+
+<body class="parent">
+    <div class="codingal">
+        <div class="left">
+            <div>logo</div>
+            <div>position in CSS</div>
+        </div>
+
+        <div class="middle">
+            <div>submit project</div>
+            <div><button>class details</button></div>
+            <div><button>chat</button></div>
+        </div>
+        <div class="end">
+            <div><button> help</button></div>
+            <div><button> class</button></div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
