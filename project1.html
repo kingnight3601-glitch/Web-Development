@@ -3,39 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>color</title>
-    <style>
-        .a{background: purple;
-
-        }
-        .b{background-color: green;}
-        .c{background: lightseagreen;
-
-        }
-        .d{background-color: blueviolet;}
-        .e{background: palevioletred;}
-        .f{background: lightcoral;}
-
-       
-
-
-
-
-
-
-
-
-
-
-
-    </style>
+    <title>project 1</title>
 </head>
-<body>
-    <h1 class="a">computer</h1>
-      <h1 class="b">chemistry</h1>
-        <h1 class="c">physics</h1>
-          <h1 class="d">maths</h1>
-            <h1 class="e">english</h1>
-              <h1 class="f">urdu</h1>
+<body >
+    <h1>Calculator</h1>
+    <h2>3*3=?</h2>
+    <h3 onclick="wrong()">4</h3>
+    <h3 onclick="wrong()">5</h3>
+    <h3 onclick="right()">9</h3>
+    <h3 id="result"></h3>
+
+    <script>
+        function wrong(){
+            document.getElementById("result").innerHTML="wrong amswer"
+        } function right() {
+            document.getElementById("result").innerHTML = "right answer"}
+
+    </script>
+    
 </body>
 </html>
