@@ -3,41 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>color</title>
-    <style>
-        .a{background:linear-gradient(purple,white);height: 100px;
-
-        }
-        .b{background:linear-gradient(to top, pink,yellow);height: 100px;}
-        .c{background: lightseagreen;
-
-        }
-        .d{background-color: blueviolet;}
-        @keyframes moveRight {50%{transform:translateX(50px) ;}
-            
-        }.e{background: palevioletred;height:50px;width:100px ;animation: moveRight 4s infinite;}
-        .f{background: lightcoral;}
-
-       
-
-
-
-
-
-
-
-
-
-
-
-    </style>
+    <title>project2</title>
 </head>
 <body>
-    <h1 class="a">computer</h1>
-      <h1 class="b">chemistry</h1>
-        <h1 class="c">physics</h1>
-          <h1 class="d">maths</h1>
-            <h1 class="e">english</h1>
-              <h1 class="f">urdu</h1>
+    <h1>What is your favourite color
+        ?
+    </h1>
+    <h2 onclick="hi()">Pink</h2>
+    <h2 onclick="by()">Blue</h2>
+    <h2 onclick="co()">Green</h2>
+    <h2 onclick="mo()">Yellow</h2>
+    <h2 onclick="fa()">Black</h2>
+<h1 id="result"></h1>
+
+<script>
+    function hi() {
+            document.getElementById("result").innerHTML = "9 votes"
+        }
+        
+     function by() {
+            document.getElementById("result").innerHTML = "4 votes"}
+        
+         function co() {
+            document.getElementById("result").innerHTML = "7 votes"}
+         function mo() {
+            document.getElementById("result").innerHTML = "3 votes"}
+        
+         function fa(){
+            document.getElementById("result").innerHTML = "11 votes"
+        }
+       
+        
+
+
+
+
+
+
+
+</script>
+    
 </body>
 </html>
