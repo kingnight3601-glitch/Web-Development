@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body>
+    <h1>What is the capital of Pakistan ?</h1>
+    <button onclick="wrong()">Lahore</button>
+    <button onclick="wrong()">Peshawar</button>
+    <button onclick="Right()">Islamabad</button>
+    <button onclick="wrong()">Karachi</button>
+    <h2 id="Result"></h2> 
+
+
+
+    <h1>what is the color of sky?</h1>
+     <button onclick="no()">pink</button>
+      <button onclick="no()">green</button>
+       <button onclick="yes()">blue</button>
+       <h2 id="how"></h2>
+        
+
+   
+
+
+
+
+
+
+
+
+    <script>
+        let Result = document.getElementById("Result");
+        function Right(){
+            Result.innerText="Right";
+        }
+         function wrong(){
+            Result.innerText="wrong";
+        }
+
+
+ let how = document.getElementById("how");
+  function yes(){
+            how.innerText="yes!";
+        }
+         function no(){
+            how.innerText="no!";
+        }
+
+
+
+
+
+    </script>
+    
+</body>
+</html>
