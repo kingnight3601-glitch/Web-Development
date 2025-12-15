@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+</head>
+<body>
+    <h1>Which film series centers on a college of magic and a boy wizard?</h1>
+    <button onclick="wrong()">Cinderella</button>
+    <button onclick="wrong()">The Avengers (2012)</button>
+<button onclick="right()">Harry Potter</button>
+    <button onclick="wrong()">Toy Story</button>  
+    <h2 id="result"></h2>
+
+
+
+    <h1>What is acrophobia a fear of? </h1>
+    <button onclick="wrong()">wather</button>
+    <button onclick="right()">Hights</button>
+    <button onclick="wrong()">snakes</button>
+    <button onclick="wrong()">darkness</button>
+    <h2 id="hi"></h2>
+
+
+<script>
+    let Result = document.getElementById("result");
+        function right(){
+            result.innerText="Right !";
+        }
+         function wrong(){
+            result.innerText="wrong !";
+        }
+       
+
+
+         let hi= document.getElementById("hi");
+        function right(){
+            hi.innerText="Right !";
+        }
+         function wrong(){
+            hi.innerText="wrong !";
+        }
+
+
+
+
+
+
+</script>
+
+
+
+
+
+</body>
+</html>
