@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <style>
+        .calculator{ 
+            background: black;
+            width: fit-content;
+            padding: 20px;
+            border-radius:10px;
+
+        }
+        .btn{
+            margin: 5px;
+            padding: 5px;
+            width: 35px;
+            font: size 16px;
+            cursor: pionter;
+
+        }
+        .btn:hower{
+            background-color: gainsboro;
+        }
+        .screen{
+            padding: 5px;
+            width: 180px;
+            margin-bottom: 5px;
+            background-color: rgb(150, 255, 150);
+
+        }
+        .c{
+            background: red;
+            color: white;
+
+
+        }
+        .e{
+            background-color: rgb(225, 225, 77);
+            color:black
+        }
+
+    </style>
+    
+</head>
+<body>
+    <div class="calculator">
+    <input type="text"readonly class="screen" id="screen">
+    <div class="row1">
+        <button class="btn" id="btn"value="9" onclick="getvalue(this)">9</button>
+         <button class="btn" id="btn"value="8"onclick="getvalue(this)">8</button>
+          <button class="btn" id="btn"value="7" onclick="getvalue(this)">7</button>
+           <button class="btn" id="btn"value="/" onclick="getvalue(this)">/</button>
+
+
+
+
+    </div>
+    <div class="row2">
+         <button class="btn" id="btn"value="6" onclick="getvalue(this)">6</button>
+          <button class="btn" id="btn"value="5" onclick="getvalue(this)">5</button>
+           <button class="btn" id="btn"value="4" onclick="getvalue(this)">4</button>
+            <button class="btn" id="btn"value="*" onclick="getvalue(this)">*</button>
+
+
+
+
+    </div>
+    <div class="row3">
+         <button class="btn" id="btn"value="3" onclick="getvalue(this)">3</button>
+          <button class="btn" id="btn"value="2" onclick="getvalue(this)">2</button>
+           <button class="btn" id="btn"value="1" onclick="getvalue(this)">1</button>
+            <button class="btn" id="btn"value="+" onclick="getvalue(this)">+</button>
+    </div>
+    <div class="row4">
+         <button class="btn c" id="btn"value="C" onclick="getvalue(this)">C</button>
+          <button class="btn" id="btn"value="0" onclick="getvalue(this)">0</button>
+           <button class="btn e" id="btn"value="=" onclick="getvalue(this)">=</button>
+            <button class="btn" id="btn"value="-" onclick="getvalue(this)">-</button>
+
+
+
+    </div>
+    </div>
+</body>
+</html>
