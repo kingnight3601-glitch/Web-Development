@@ -1,35 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bank Account</title>
-    <style>
-        .bank {
-            background-color: rgb(243, 233, 233);
-            text-align: center;
-            font-size: medium;
-        }
 
-        .bg1 {
+<title>Debit Credit App</title>
 
-            padding: 10px;
-            margin: 10px;
-            border: radius 10px;
-
-
-        }
-    </style>
 
 </head>
 
-<body class="bank"></body>
-<h1>Bank App</h1></br>
-<label>Enter Transection Amount</label>
+<body>
+
 <input type="number" id="amount" placeholder="Enter amount" />
 
-</div></br>
+<br><br>
+
 <button onclick="credit()">Credit</button>
 
 <button onclick="debit()">Debit</button>
@@ -38,10 +23,9 @@
 
 <h1 id="balance">0</h1>
 
-
-</div>
 <script>
-    let balance = 0;
+
+let balance = 0;
 
 function credit() {
 
@@ -75,7 +59,4 @@ document.getElementById("balance").innerText = balance;
 
 </html>
 
-
-
-    
 
