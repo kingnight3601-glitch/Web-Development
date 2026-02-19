@@ -40,6 +40,10 @@ print("less than or equals to=",number1<=number2)
 
 result=number1-number2//2
 print(result)
+result2=number1-(number2//4)
+print(result2)
+
+
 
 
 
